@@ -44,6 +44,6 @@ end
 
 def update_element_from_index(last_one, index_number, element)
   last_one = ["wow", "totally", "popcorn"]
-  last_one[1]
   last_one.index("totally")
+  last_one[1]
 end
