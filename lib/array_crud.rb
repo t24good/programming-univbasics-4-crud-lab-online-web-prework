@@ -42,6 +42,8 @@ def retrieve_last_element_from_array(one_more)
   one_more[-1]
 end
 
-def update_element_from_index(array, index_number, element)
-
+def update_element_from_index(last_one, index_number, element)
+  last_one = ["wow", "totally", "popcorn"]
+  last_one[1]
+  last_one.index("totally")
 end
